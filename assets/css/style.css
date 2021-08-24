@@ -10,19 +10,21 @@
 body {
     font-family: 'Roboto Slab', sans-serif ;
     font-weight: 300;
-    background-color: #f4d02d;
+    background-color: #003049;
     
   }
 /* headings and logo */
 
-/*
+
 h1 {
     font-family: 'Montserrat', sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 4px;
     color: #003049;
     font-size: 300%;
-}*/
+    font-weight: 300;
+    margin: .5em;
+}
 
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -44,7 +46,7 @@ h3 {
 #logo {
     float:left;
     font-size: 300%;
-    font-weight: 2;
+    font-weight: 300;
     margin-left: 30px;
     margin-top: 10px;
     text-transform: uppercase;
@@ -99,11 +101,33 @@ color: #003049;
 
 /* banner */
 .banner {
-    background-color: #f77f00;
+    background-color: #3fe491;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
     text-align: center;
+}
+
+#who-we-are, #camper-hacks-clothing {
+    background-color: #f77f00;
+    line-height: 60px;
+    font-size: larger;
+    text-align: center;
+}
+
+#camper-hacks-clothing {
+    width: 55%;
+    display: inline-flex; 
+    float:left;
+}
+
+#camper-hacks-clothing li {
+    list-style-type: none;
+}
+
+#clothing-video {
+   display: inline-flex;
+   width: 40%
 }
 
 /*gallery*/
