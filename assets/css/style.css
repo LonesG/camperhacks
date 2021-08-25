@@ -99,8 +99,25 @@ color: #003049;
     background-color: #003049;   
 }
 
-/* banner */
-.banner {
+/*who we are section */
+.intro-section {
+    background-color: #3fe491;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#who-we-are {
+    background-color: #f77f00;
+    line-height: 60px;
+    font-size: larger;
+    text-align: center;
+}
+
+/* clothing section */
+
+
+.clothing-section {
     background-color: #3fe491;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -108,10 +125,10 @@ color: #003049;
     text-align: center;
 }
 
-#who-we-are, #camper-hacks-clothing {
+#camper-hacks-clothing {
     background-color: #f77f00;
-    line-height: 60px;
-    font-size: larger;
+    line-height: 40px;
+    font-size: large;
     text-align: center;
 }
 
@@ -119,6 +136,7 @@ color: #003049;
     width: 55%;
     display: inline-flex; 
     float:left;
+    margin-left: 5px;
 }
 
 #camper-hacks-clothing li {
@@ -129,6 +147,40 @@ color: #003049;
    display: inline-flex;
    width: 40%
 }
+
+/* gear section*/
+
+.gear-section {
+    background-color: #3fe491;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 1100px;
+}
+
+#camper-hacks-gear {
+    background-color: #f77f00;
+    line-height: 40px;
+    font-size: large;
+}
+
+#camper-hacks-gear {
+    width: 65%;
+    display: inline-flex; 
+    float:right;
+    margin-right: 5px;
+}
+
+#camper-hacks-gear li {
+    list-style-type: none;
+}
+
+#gear-video {
+    padding-top: 50px;
+    width: 100%;
+ }
+
 
 /*gallery*/
 
