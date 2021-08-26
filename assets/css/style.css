@@ -156,8 +156,8 @@ color: #003049;
     margin-bottom: 10px;
     padding: 10px;
     text-align: center;
-    height: 1100px;
-}
+    height: 1000px;
+    }
 
 #camper-hacks-gear {
     background-color: #f77f00;
@@ -176,11 +176,54 @@ color: #003049;
     list-style-type: none;
 }
 
-#gear-video {
-    padding-top: 50px;
+#gear-video-one {
+    padding-top: 0;
     width: 100%;
+  }
+
+ #gear-video-two{
+    margin: 0 auto;
+    width: 100%;    
  }
 
+ /* food section*/
+ .food-section {
+    background-color: #3fe491;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 1200px;
+    }
+
+#camper-hacks-food {
+        background-color: #f77f00;
+        line-height: 40px;
+        font-size: large;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+
+#camper-hacks-food li {
+        list-style-type: none;
+        text-align: center;
+    }
+
+#food-podcast {
+    margin: 10px;
+}
+#pancakes-one {
+     margin: 10px;
+}
+
+#twitter {
+    background-color: rgb(163, 137, 163);
+    width:60%;
+    display: inline-flex;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
 
 /*gallery*/
 
@@ -217,4 +260,10 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #003049;
+}
+
+/*media queries*/
+
+/* for larger to medium screen size from 1400px wide and down */
+@media screen and (max-width: 1400px) {
 }
