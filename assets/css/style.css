@@ -123,6 +123,7 @@ color: #003049;
     margin-bottom: 10px;
     padding: 10px;
     text-align: center;
+    height: 650px;
 }
 
 #camper-hacks-clothing {
@@ -146,6 +147,7 @@ color: #003049;
 #clothing-video {
    display: inline-flex;
    width: 40%
+
 }
 
 /* gear section*/
