@@ -264,6 +264,77 @@ footer {
     color: #003049;
 }
 
+#copyright {
+    text-align: center;
+}
+
+/* form section */
+
+.form-section {
+    background: url('../images/thankyou.jpeg') no-repeat center center;
+    height: 1200px;
+}
+
+.signupform {
+    text-align: center;
+    font-size: 150%;
+    line-height: 75px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3fe491;
+}
+
+
+.join-up {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    clear: both;
+    letter-spacing: 4px;
+    color: #003049;
+    font-size: 100%;
+    font-weight: 300;
+    margin: .5em;
+    background-color: #3fe491;
+
+}
+.join-button {
+    margin-top: 20px;
+    margin-left: 600px;
+    padding: 20px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 125%;
+    background-color:#f77f00;
+    color: #003049;  
+    display: block;
+}
+
+/* thank you page */
+
+.thank-you {
+    background-color: #3fe491;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#thankyou-message {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    clear: both;
+    letter-spacing: 4px;
+    line-height: 75px;
+    color: #003049;
+    font-size: 150%;
+    font-weight: 300;
+    margin: .5em;
+    background-color: #3fe491;
+
+}
+
+
 /*media queries*/
 
 /* for larger to medium screen size from 1400px wide and down */
