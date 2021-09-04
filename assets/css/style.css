@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
 
-* {   
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
-    }
+}
 
 body {
-    font-family: 'Roboto Slab', sans-serif ;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 300;
     background-color: #003049;
-    
-  }
+
+}
+
 /* headings and logo */
 
 
@@ -44,7 +45,7 @@ h3 {
 }
 
 #logo {
-    float:left;
+    float: left;
     font-size: 300%;
     font-weight: 300;
     margin-left: 30px;
@@ -56,15 +57,16 @@ h3 {
 
 #menu {
     font-size: 150%;
-    letter-spacing: 5px; 
+    letter-spacing: 5px;
     background-color: #f77f00;
-   
+
 }
 
-#menu, #logo {
-line-height: 80px;
-height: 100px;
-color: #003049;
+#menu,
+#logo {
+    line-height: 80px;
+    height: 100px;
+    color: #003049;
 }
 
 #menu li {
@@ -96,7 +98,7 @@ color: #003049;
     height: 400px;
     width: 100%;
     background: url('../images/campervan-hero.jpg') no-repeat center center;
-    background-color: #003049;   
+    background-color: #003049;
 }
 
 /*who we are section */
@@ -107,6 +109,7 @@ color: #003049;
     padding: 10px;
     text-align: center;
 }
+
 #who-we-are {
     background-color: #f77f00;
     line-height: 60px;
@@ -115,7 +118,6 @@ color: #003049;
 }
 
 /* clothing section */
-
 
 .clothing-section {
     background-color: #3fe491;
@@ -135,8 +137,8 @@ color: #003049;
 
 #camper-hacks-clothing {
     width: 55%;
-    display: inline-flex; 
-    float:left;
+    display: inline-flex;
+    float: left;
     margin-left: 5px;
 }
 
@@ -145,9 +147,8 @@ color: #003049;
 }
 
 #clothing-video {
-   display: inline-flex;
-   width: 40%
-
+    display: inline-flex;
+    width: 40%
 }
 
 /* gear section*/
@@ -159,7 +160,7 @@ color: #003049;
     padding: 10px;
     text-align: center;
     height: 1000px;
-    }
+}
 
 #camper-hacks-gear {
     background-color: #f77f00;
@@ -169,8 +170,8 @@ color: #003049;
 
 #camper-hacks-gear {
     width: 65%;
-    display: inline-flex; 
-    float:right;
+    display: inline-flex;
+    float: right;
     margin-right: 5px;
 }
 
@@ -181,47 +182,48 @@ color: #003049;
 #gear-video-one {
     padding-top: 0;
     width: 100%;
-  }
+}
 
- #gear-video-two{
+#gear-video-two {
     margin: 0 auto;
-    width: 100%;    
- }
+    width: 100%;
+}
 
- /* food section*/
- .food-section {
+/* food section*/
+.food-section {
     background-color: #3fe491;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
     text-align: center;
     height: 1200px;
-    }
+}
 
 #camper-hacks-food {
-        background-color: #f77f00;
-        line-height: 40px;
-        font-size: large;
-        width: 100%;
-        margin: 0 auto;
-    }
-    
+    background-color: #f77f00;
+    line-height: 40px;
+    font-size: large;
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 #camper-hacks-food li {
-        list-style-type: none;
-        text-align: center;
-    }
+    list-style-type: none;
+    text-align: center;
+}
 
 #food-podcast {
     margin: 10px;
 }
+
 #pancakes-one {
-     margin: 10px;
+    margin: 10px;
 }
 
 #twitter {
     background-color: rgb(163, 137, 163);
-    width:60%;
+    width: 60%;
     display: inline-flex;
     font-family: 'Montserrat';
     text-transform: uppercase;
@@ -235,11 +237,11 @@ color: #003049;
     column-count: 3;
     column-gap: 2;
     display: inline-block;
-    margin:10px;
-    padding:10px; 
+    margin: 10px;
+    padding: 10px;
 }
 
-#images > img {
+#images>img {
     width: 100%;
 }
 
@@ -249,11 +251,12 @@ footer {
     background-color: #3fe491;
     width: 100%;
 }
+
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -297,6 +300,7 @@ footer {
     background-color: #3fe491;
 
 }
+
 .join-button {
     margin-top: 20px;
     margin-left: 600px;
@@ -304,8 +308,8 @@ footer {
     text-align: center;
     text-transform: uppercase;
     font-size: 125%;
-    background-color:#f77f00;
-    color: #003049;  
+    background-color: #f77f00;
+    color: #003049;
     display: block;
 }
 
@@ -337,6 +341,45 @@ footer {
 
 /*media queries*/
 
-/* for larger to medium screen size from 1400px wide and down */
-@media screen and (max-width: 1400px) {
+/* for larger to medium screen size from 1325px wide and down */
+@media screen and (max-width: 1325px) {
+
+    header {
+        height: fit-content;
+    }
+
+    #menu {
+        letter-spacing: 6px;
+        height: 250px;
+    }
+
+    #menu li {
+        list-style-type: none;
+        width:25%;
+        font-size: large;
+        
+    }
+
+    #logo {
+        display: inline-flex;
+        width: 40%;
+        letter-spacing: 6px;
+        display: inline-block;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .clothing-section {
+        height: 700px;
+    }
+
+    .gear-section {
+        height: 1250px;
+    }
+
+    .food-section {
+        height: fit-content
+    }
+
 }
