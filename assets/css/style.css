@@ -136,19 +136,12 @@ h3 {
 }
 
 #camper-hacks-clothing {
-    width: 55%;
-    display: inline-flex;
-    float: left;
+  
     margin-left: 5px;
 }
 
 #camper-hacks-clothing li {
     list-style-type: none;
-}
-
-#clothing-video {
-    display: inline-flex;
-    width: 40%
 }
 
 /* gear section*/
@@ -178,7 +171,7 @@ h3 {
 #camper-hacks-gear li {
     list-style-type: none;
 }
-
+/*
 #gear-video-one {
     padding-top: 0;
     width: 100%;
@@ -188,7 +181,7 @@ h3 {
     margin: 0 auto;
     width: 100%;
 }
-
+*/ 
 /* food section*/
 .food-section {
     background-color: #3fe491;
@@ -218,7 +211,7 @@ h3 {
 }
 
 #pancakes-one {
-    margin: 10px;
+    width:fit-content;
 }
 
 #twitter {
@@ -302,15 +295,14 @@ footer {
 }
 
 .join-button {
-    margin-top: 20px;
-    margin-left: 600px;
     padding: 20px 40px;
     text-align: center;
     text-transform: uppercase;
     font-size: 125%;
     background-color: #f77f00;
     color: #003049;
-    display: block;
+    width: 100%;
+
 }
 
 /* thank you page */
@@ -441,3 +433,63 @@ nav {
 .clothing-section {
     height:fit-content;
 }
+
+}
+
+/* for medium screen sizes from 600px wide and down */
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 150%;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #logo {
+        width: 100%;
+        background-color: #f77f00;
+        font-size: x-large;
+        color: #003049;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header>nav {
+        width: 100%;
+    }
+
+    #menu li {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #clothing-video {
+        width: 100%;
+    }
+
+
+    .form-section {
+        background: #003049;
+        height: 875px;
+    }
+
+    #images {
+        clear: both;
+        line-height: 2;
+        column-count: 2;
+        column-gap: 1;
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #pancakes-one {
+        width:50%;
+        height: 50%;
+    }
+}
+    
