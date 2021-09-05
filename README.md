@@ -5,7 +5,7 @@
 "Camper Hacks" offers camping hacks, tips and tricks for motorhome, campervan and wild camping fans. It offers users the opportunity to join it's wider community through a sign up form with details of meet ups as well as availing of the monthly community newsletter. It is designed to be responsible and accessible on a range of devices, ensuring those on the road can access these tips while camping.
 
 <h2 align="center"> </h2>
-![Responsive Image](https://https://github.com/LonesG/camperhacks/blob/main/wireframes/responsive.png)
+![Responsive Image](https://github.com/LonesG/camperhacks/blob/main/wireframes/responsive.png)
 
 
 ## User Experience (UX)
