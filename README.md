@@ -1,11 +1,11 @@
 <h1 align="center">Camper Hacks Website</h1>
 
-[View the live project here.](https://lonesg.github.io/camperhacks/)
+[View 'Camper Hacks' live website here.](https://lonesg.github.io/camperhacks/)
 
-"Camper Hacks" offers camping hacks, tips and tricks for motorhome, campervan and wild camping fans. It offers users the opportunity to join it's wider community through a sign up form with details of meet ups as well as availing of the monthly community newsletter. It is designed to be responsible and accessible on a range of devices, ensuring those on the road can access these tips while camping.
+"Camper Hacks" offers camping hacks, tips and tricks for motorhome, campervan and wild camping fans. It offers users the opportunity to join it's wider community through a sign up form with details of meet ups as well as availing of the monthly community newsletter. It is designed to be responsible and accessible on a range of devices, ensuring those on the road can access these tips while camping
 
-<h2 align="center"> </h2>
-![Responsive Image](https://github.com/LonesG/camperhacks/blob/main/wireframes/responsive.png)
+
+![Responsive Image](assets/wireframes/responsive.png)
 
 
 ## User Experience (UX)
@@ -28,11 +28,10 @@
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used in this project are Blue, Gold and Aqua.
-
-        ![]
+        -   The main colours used in this project are Prussian Blue (#003049), Gold Drop (#f77f00) and Shamrock (#3fe491).
+        -   I made this pallete on iColorpalette.com. When I played around with the website, I didn't like the second color, Torch Red as I found it wasn't very easy on the eyes.      
+                                    ![Colour Scheme](assets/wireframes/pallete.png)
         
-        Prussian Blue (#003049), Gold Drop (#f77f00) and Shamrock (#3fe491).
     -   #### Typography
         -   The Roboto Slab font is the main font used throughout the body of the website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto Slab is a clean font used frequently. I have used Montserrat as the headings font. I used Google Fonts to compare and contrast a variety of font matches and I believe this pairing makes the website easy to use and accessible. 
     -   #### Imagery
@@ -40,7 +39,9 @@
 
 *   ### Wireframes
 
-    -   Wireframe Images go here
+    -   I made some very basic wireframes using Balsamiq at the beginning of the project. As a total beginner, I found Balsamiq to be very interesting. I didn't quite know what styling I wanted on my pages but I had a very clear picture about the content.
+    ![Wireframe of Home page](assets/wireframes/wireframe1.png)
+    ![Wireframe of Gallery](assets/wireframes/wireframe2.png)
 
 ## Features
 
