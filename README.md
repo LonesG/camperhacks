@@ -4,7 +4,8 @@
 
 "Camper Hacks" offers camping hacks, tips and tricks for motorhome, campervan and wild camping fans. It offers users the opportunity to join it's wider community through a sign up form with details of meet ups as well as availing of the monthly community newsletter. It is designed to be responsible and accessible on a range of devices, ensuring those on the road can access these tips while camping.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"> </h2>
+! [Responsive Image] (https://https://github.com/LonesG/camperhacks/blob/main/docs/responsive.png)
 
 ## User Experience (UX)
 
@@ -27,6 +28,8 @@
 -   ### Design
     -   #### Colour Scheme
         -   The main colours used in this project are Blue, Gold and Aqua.
+
+        ![]
         
         Prussian Blue (#003049), Gold Drop (#f77f00) and Shamrock (#3fe491).
     -   #### Typography
