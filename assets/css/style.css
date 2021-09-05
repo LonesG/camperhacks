@@ -341,33 +341,36 @@ footer {
 
 /*media queries*/
 
-/* for larger to medium screen size from 1325px wide and down */
+/* for extra large screen size from 1325px wide and down */
 @media screen and (max-width: 1325px) {
 
     header {
-        height: fit-content;
-    }
-
-    #menu {
-        letter-spacing: 6px;
-        height: 250px;
-    }
-
-    #menu li {
-        list-style-type: none;
-        width:25%;
-        font-size: large;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     #logo {
-        display: inline-flex;
-        width: 40%;
-        letter-spacing: 6px;
-        display: inline-block;
-        line-height: 40px;
+        width: 100%;
+        background-color: #f77f00;
+        color: #003049;
+        margin: 0 auto;
         text-align: center;
-        margin-top: 50px;
+    }
+
+    header>nav {
+        width: 100%;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #menu li {
+        justify-content: space-around;
+        line-height: 50px;
+
     }
 
     .clothing-section {
@@ -382,4 +385,59 @@ footer {
         height: fit-content
     }
 
+}
+
+/* for larger screen sizes from 985px wide and down */
+@media screen and (max-width: 985px) {
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+#logo {
+    width: 100%;
+    background-color: #f77f00;
+    color: #003049;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+}
+
+#menu {
+    height:fit-content;
+    display: flex; 
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+#camper-hacks-gear {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.gear-section {
+    height: fit-content;
+}
+
+.food-section {
+    height: fit-content;
+}
+
+}
+
+/* for medium screen sizes from 895px wide and down */
+@media screen and (max-width: 895px) {
+
+#camper-hacks-clothing {
+    width: 100%;
+}
+.clothing-section {
+    height:fit-content;
 }
