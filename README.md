@@ -40,16 +40,15 @@
 *   ### Wireframes
 
     -   I made some very basic wireframes using Balsamiq at the beginning of the project. As a total beginner, I found Balsamiq to be very interesting. I didn't quite know what styling I wanted on my pages but I had a very clear picture about the content.
+
     ![Wireframe of Home page](assets/wireframes/wireframe1.png)
+    
     ![Wireframe of Gallery](assets/wireframes/wireframe2.png)
 
 ## Features
 
 -   Responsive on all device sizes
 
--   Interactive elements
-
-## Technologies Used
 
 ### Languages Used
 
