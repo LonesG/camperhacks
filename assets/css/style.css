@@ -447,6 +447,8 @@ nav {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        overflow: hidden;
+      
     }
 
     #logo {
@@ -474,7 +476,12 @@ nav {
 
     .form-section {
         background: #003049;
-        height: 875px;
+        height: 2000px;
+        display: flex;
+    }
+
+    .form-section label {
+        display: block;
     }
 
     #images {

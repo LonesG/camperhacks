@@ -17,7 +17,7 @@
         
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to locate the relevant social media links to see what kind of community Camper Hack is.
+        1. As a Returning Visitor, I want to locate the relevant social media links to see what kind of community Camper Hacks is.
         2. As a Returning Visitor, I want to find how I can join this community, attend meet ups and avail of their newsletter.
 
     -   #### Frequent User Goals
@@ -26,19 +26,17 @@
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used in this project are
+        -   The main colours used in this project are Blue, Gold and Aqua.
+        
+        Prussian Blue (#003049), Gold Drop (#f77f00) and Shamrock (#3fe491).
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Roboto Slab font is the main font used throughout the body of the website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto Slab is a clean font used frequently. I have used Montserrat as the headings font. I used Google Fonts to compare and contrast a variety of font matches and I believe this pairing makes the website easy to use and accessible. 
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   I have used a large striking image on the home page of the website. I wanted to capture the sense of adventure that camping enthusiasts enjoy. The imagery used throughout the website fits in nicely with the colour scheme and I believe there is a nice flow to the overall imagery on each page of the website.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Wireframe Images go here
 
 ## Features
 
@@ -55,22 +53,16 @@
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Pexels:](https://pexels.com/)
+    - I used Pexels throughout my website for all imagery used. Pexels offers Copyright free imagery. All images used were chosen as they fit the overall theme for the website.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
