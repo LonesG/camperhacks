@@ -109,27 +109,23 @@ This website is designed to be responsive and accessible on a range of devices, 
     - #### 'Contact Us' page
         - I think  another feature that could allow for another positive user experience is the addition of another page for "Contact Us". Here the users can submit their own  camper hacks which can then be used to update the site regularly.
 
+- ### Responsive on all device sizes 
+    - The website is responsive on a number of devices at different screen widths. 
 
 
-### Responsive on all device sizes
-- The website is responsive on a number of devices at different screen widths. 
-
-
-### Languages Used
+## Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 
 1. [Pexels:](https://pexels.com/)
     - I used Pexels throughout my website for all imagery used. Pexels offers Copyright free imagery. All images used were chosen as they fit the overall theme for the website.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Roboto Slab' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes. These were inkeeping with the overall style of the website.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
@@ -139,8 +135,9 @@ This website is designed to be responsive and accessible on a range of devices, 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/) 
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -190,15 +187,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On some devices
 
 ## Deployment
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository, locate the "Settings" Button on the menu.
@@ -208,15 +203,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [Camper Hacks link](https://lonesg.github.io/camperhacks/)in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
-
-```
 
 ## Credits
 
