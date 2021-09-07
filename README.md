@@ -145,18 +145,19 @@ This website is designed to be responsive and accessible on a range of devices, 
 
  - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) 
+-   [W3C Markup Validator](https://validator.w3.org/) No errors found:
+
+    ![HTML Validator Image](assets/wireframes/htmlvalidator.png)
     
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
-    - No errors found
-    - ![CSS Validator Image](assets/wireframes/cssvalidator.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) No errors found:
+    
+    ![CSS Validator Image](assets/wireframes/cssvalidator.png)
 
--   I used Lighthouse Dev Tools to test my website on desktop and then on mobile.
-    - Desktop
-    -   ![Lighthouse Desktop Image](assets/wireframes/lighthouse.png)
-    - Mobile
-    -   
+-   I used Lighthouse Dev Tools to test my website:
+
+    ![Lighthouse Desktop Image](assets/wireframes/lighthouse.png)
+    
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -199,7 +200,9 @@ This website is designed to be responsive and accessible on a range of devices, 
     
 ### Known Bugs
 
--   On some devices
+-   On some devices, I noticed the iframe holding the podcast in the Camper Hacks - Food section was stretching out to take up too much space and causing overflow, particularly on small devices. I chose to take the width and height values out of the iframe itself and size the iframe using CSS. This has fixed the bug on small devices.
+- I had some issues initially when I ran my code through the validator around h1 headings. I had used these in more than one place in my files. I subsequently changed the h1's to h2 or h3 headings. 
+- I noticed when testing the website with Lighthouse that my own internet connection affected the websites Performance score. When testing in different places,  the score ranged +/- 5 points. I found this interesting and read some articles about Lighthouse which I found helpful. View the  [Lighthouse Article](https://requestmetrics.com/web-performance/the-limitations-of-lighthouse) here.
 
 ## Deployment
 
@@ -213,9 +216,41 @@ The project was deployed to GitHub Pages using the following steps:
 4. Once at this section, it says "Pages settings now has its own dedicated tab! Check it out here!" Click on the link.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [Camper Hacks link](https://lonesg.github.io/camperhacks/)in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [Camper Hacks link](https://lonesg.github.io/camperhacks/) in the "GitHub Pages" section.
 
+### Forking the GitHub Repository
 
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/LonesG/camperhacks
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/LonesG/camperhacks
+>Cloning into 'portfolio-one'...
+>remote: Enumerating objects: 287, done.
+>remote: Counting objects: 100% (287/287), done.
+>remote: Compressing objects: 100% (189/189), done.
+>remote: Total 287 (delta 136), reused 220 (delta 72), pack-reused 0
+>Receiving objects: 100% (287/287), 26.52 MiB | 11.73 MiB/s, done.
+>Resolving deltas: 100% (136/136), done
+```
 
 ## Credits
 
