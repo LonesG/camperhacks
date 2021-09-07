@@ -281,6 +281,28 @@ footer {
     width: 100%;
 }
 
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid  #003049;
+    border-radius: 4px;
+    background-color: #f77f00;
+  }
+
+  input[type=email] {
+    display: inline-block;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid  #003049;
+    border-radius: 4px;
+    background-color: #f77f00;
+  }
+  }
+
 /* thank you page */
 
 .thank-you {
