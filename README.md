@@ -133,7 +133,17 @@ This website is designed to be responsive and accessible on a range of devices, 
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+### Initial Testing
+
+-   The website was tested on Google Chrome, Internet Explorer and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhone 11.
+-   Testing was completed to ensure that all pages were linking correctly from the navigation bar.
+-   I tested to ensure the Sign Up form is validated and requires all fields to be filled before submitting is allowed.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Further Testing 
+
+ - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/) 
     
@@ -141,6 +151,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
     - No errors found
     - ![CSS Validator Image](assets/wireframes/cssvalidator.png)
+
+-   I used Lighthouse Dev Tools to test my website on desktop and then on mobile.
+    - Desktop
+    -   ![Lighthouse Desktop Image](assets/wireframes/lighthouse.png)
+    - Mobile
+    -   
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -181,13 +197,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The user would already be comfortable with the website layout and can easily check each section for new and updated hacks.
 
     
-### Further Testing
-
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   Testing was completed to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
-
 ### Known Bugs
 
 -   On some devices
