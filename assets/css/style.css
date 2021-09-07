@@ -484,6 +484,7 @@ footer {
         display: inline-block;
         margin: 10px;
         padding: 10px;
+        height: fit-content;
     }
 
     #pancakes-one {
