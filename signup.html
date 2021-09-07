@@ -12,10 +12,12 @@
 </head>
 
 <body>
+    <!--Header-->
     <header>
         <a href="index.html">
             <h2 class="headings" id="logo">Camper <i class="fas fa-caravan"></i>Hacks</h2>
         </a>
+        <!--Navbar-->
         <nav id="menu">
             <ul>
                 <li><a href="signup.html" class="active"><i class="fas fa-user-edit"></i>Sign Up</a></li>
@@ -25,34 +27,31 @@
             </ul>
         </nav>
     </header>
+    <!--Form Section-->
+    <section class="form-section">
+        <form method="GET" action="thankyou.html" class="signupform">
+            <h3 class="join-up">Want to join our community?</h3>
+            <p>We send newsletters the first of every month with hacks, community meet-ups and much more!</p>
+            <label for="fname">First Name:</label>
+            <input type="text" class="text-input" id="fname" name="first_name" required>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+            <br>
+            <label for="email">Email Address:</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+            <h3 class="join-up">Which best describes your camping style?</h3>
+            <label for="campervan">Campervan</label>
+            <input type="radio" id="campervan" name="camping_style" value="campervan" required>
+            <label for="motorhome">Motorhome</label>
+            <input type="radio" id="motorhome" name="camping_style" value="motorhome" required>
+            <label for="wildcampers">Wild Campers</label>
+            <input type="radio" id="wildcampers" name="camping_style" value="wildcampers" required>
 
-       <section class="form-section">
-               <form method="GET" action="thankyou.html" class="signupform">
-                <h3 class="join-up">Want to join our community?</h3>
-                <p>We send newsletters the first of every month with hacks, community meet-ups and much more!</p>
-                <label for="fname">First Name:</label>
-                <input type="text" class="text-input" id="fname" name="first_name" required>
-                <br>
-                <label for="lname">Last Name:</label>
-                <input class="text-input" id="lname" name="last_name" type="text" required>
-                <br>
-                <label for="email">Email Address:</label>
-                <input class="text-input" type="email" id="email" name="email_address" required>
-                <h3 class="join-up">Which best describes your camping style?</h3>
-                <label for="campervan">Campervan</label>
-                <input type="radio" id="campervan" name="camping_style" value="campervan" required>
-                <label for="motorhome">Motorhome</label>
-                <input type="radio" id="motorhome" name="camping_style" value="motorhome" required>
-                <label for="wildcampers">Wild Campers</label>
-                <input type="radio" id="wildcampers" name="camping_style" value="wildcampers" required>
-
-                <input class="join-button" type="submit" value="Sign me up!">
-            </form>
-        
-
-
-
+            <input class="join-button" type="submit" value="Sign me up!">
+        </form>
     </section>
+    <!--Footer-->
     <footer>
         <ul class="social-networks">
             <li>
@@ -74,7 +73,6 @@
         </ul>
         <h3 class="copyright" id="copyright"><i class="far fa-copyright"></i>Copyright Camper Hacks, 2021</h3>
     </footer>
-
-
+    <!--Font Awesome script-->
     <script src="https://kit.fontawesome.com/30781dfce8.js" crossorigin="anonymous"></script>
 </body>
