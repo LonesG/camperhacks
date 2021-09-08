@@ -165,6 +165,9 @@ This website is designed to be responsive and accessible on a range of devices, 
 
         ![Sign Up Image](assets/wireframes/signup.png)
 
+        - The sign up page button also has a hover effect and pointer cursor for ease of use. The user can clearly identify the sign up button as it is highlighted in yellow and the pointer changes to draw attention to this area.
+
+        ![Sign Up Hover Button](assets/wireframes/signuphover.png)
     - #### Thank You Page
 
         - The thank you page confirms the user has successfully signed up and welcomes them to the community. 
