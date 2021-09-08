@@ -32,8 +32,8 @@ This website is designed to be responsive and accessible on a range of devices, 
 
 - ## Design
     -   #### Colour Scheme
-        -   The main colours used in this project are Prussian Blue (#003049), Gold Drop (#f77f00) and Shamrock (#3fe491).
-        - The blue color reflects the open sky, good weather and sunny days. The golden color, again represents the sun and warm weather that is much loved by campers. Finally, the aqua color represents the water in nature.
+        -   The main colours used in this project are Prussian Blue (#003049), Gold Drop (#f77f00), Saffron (##f4d023) and Shamrock (#3fe491).
+        - The blue color reflects the open sky and fine weather. The golden colors, again represent the sun and warm weather that is much loved by campers. Finally, the aqua color represents water in nature.
         -   I made this pallete on iColorpalette.com. When I played around with the website, I didn't like the second color, Torch Red as I found it wasn't very easy on the eyes.      
                                     ![Colour Scheme](assets/wireframes/pallete.png)
         
@@ -66,6 +66,13 @@ This website is designed to be responsive and accessible on a range of devices, 
         - The landing page contains a hero image that entices the user to use the page. The contrast between the image with mountains and snowy peaks and the background colour is intended to grab the users attention.
 
         ![Hero Image](assets/wireframes/heroimage.png)
+
+    - #### The 'Back to Top' link
+        - The back to top link promotes positive user experiences on the website as it allows the user to scroll the website without having to manually go back up to the top to navigate their way around the site. 
+        - Positive user experiences are key in keeping users engaged with the site so I wanted to add this feature.
+        - I also took this opportunity to use the lighter yellow colour for the background of this feauture and the navy colour used elsewhere throughout the website for the text, as this colour combination  is easily spotted as its contrasts with the other colours. It is also helpful for users who may have dyslexia and visual impairment issues. This colour scheme is used for each link throughout the page to allow for familiarity, allowing the user to navigate back to the top with ease.
+
+        ![Back to top Image](assets/wireframes/backtotop.png)
 
     - #### The Who We Are section
         - The who we are section introduces the user to the Camper Hacks community, it's founders and gives a brief introduction. It lets the user know what they will find on the page and how to acess information.
