@@ -15,16 +15,16 @@ This website is designed to be responsive and accessible on a range of devices, 
 ## Contents
 <ul>
     <li>
-        <a href="#User Experience"><strong>UX</strong></a>               
-    </li>
-    <li>
-        <a href="#Technologies"><strong>Technologies</strong></a>
+        <a href="#User Experience (UX)"><strong>User Experience (UX)</strong></a>               
     </li>
     <li>
         <a href="#Features"><strong>Features</strong></a>
     </li>
     <li>
-        <a href="#Testing"><strong>Testing</strong></a>   
+        <a href="#Technologies"><strong>Technologies</strong></a>   
+    </li>
+    <li>
+        <a href="#Testing"><strong>Testing</strong></a>
     </li>
     <li>
         <a href="#Deployment"><strong>Deployment</strong></a>
@@ -32,15 +32,12 @@ This website is designed to be responsive and accessible on a range of devices, 
     <li>
        <a href="#Credits"><strong>Credits</strong></a> 
     </li>
-    <li>
-        <a href="#Screenshots"><strong>Screenshots</strong></a>
-    </li>
 </ul>
 <hr>
 
 
 
-- # User Experience (UX)
+# User Experience (UX)
 - ## Strategy
 
 - ### Vision
@@ -109,8 +106,7 @@ This website is designed to be responsive and accessible on a range of devices, 
 
    - #### Icons
         - I decided to use the Font Awesome icons. The icons that I chose fit in well with the overall theme of nature and exploring. The icons are styled in accordance with my website, with the same colors and fonts. 
-
-  
+<hr>
 
 # Features
 
@@ -170,97 +166,36 @@ This website is designed to be responsive and accessible on a range of devices, 
         - The thank you page confirms the user has successfully signed up and welcomes them to the community. 
 
         ![Thank You Image](assets/wireframes/thankyou.png)
-
  
-
-
-
-## Features
-
--  ### Existing Features
-    - #### Navigation Bar
-        -The navigation bar is featured on all pages. The fully responsive navigation  bar links to Home, Camper Hacks, Gallery and Sign Up pages. This navigation bar is repeated on all pages to allow the user to navigate the site easily.
-        -Having the navigation bar the same on each page allows the user to use the website fluidly without having to make use of the 'back' bar when navigating between pages.
-
-        ![Navigation Bar Image](assets/wireframes/navbar.png)
-
-    - #### The Landing Page
-        - The landing page contains a hero image that entices the user to use the page. The contrast between the image with mountains and snowy peaks and the background colour is intended to grab the users attention.
-
-        ![Hero Image](assets/wireframes/heroimage.png)
-
-    - #### The 'Back to Top' link
-        - The back to top link promotes positive user experiences on the website as it allows the user to scroll the website without having to manually go back up to the top to navigate their way around the site. 
-        - Positive user experiences are key in keeping users engaged with the site so I wanted to add this feature.
-        - I also took this opportunity to use the lighter yellow colour for the background of this feauture and the navy colour used elsewhere throughout the website for the text, as this colour combination  is easily spotted as its contrasts with the other colours. It is also helpful for users who may have dyslexia and visual impairment issues. This colour scheme is used for each link throughout the page to allow for familiarity, allowing the user to navigate back to the top with ease.
-
-        ![Back to top Image](assets/wireframes/backtotop.png)
-
-    - #### The Who We Are section
-        - The who we are section introduces the user to the Camper Hacks community, it's founders and gives a brief introduction. It lets the user know what they will find on the page and how to acess information.
-
-        ![Who We Are Image](assets/wireframes/whoweare.png)
-
-    - #### The Camper Hacks Section
-        - This section is sub divided into three specific headings; Clothing, Gear and Food. The user will find a wide variety of tips and tricks, presented through the medium of text, video, imagery and links to external websites. 
-
-        ![Camper Hacks- Clothing Image](assets/wireframes/clothing.png)
-        ![Camper Hacks - Gear Image](assets/wireframes/gear.png)
-        ![Camper Hacks - Food Image](assets/wireframes/food.png)
-
-    - #### The Footer
-        - This section provides the user with links to the Camper Hacks social media accounts, Facebook, Instagram, Twitter and Youtube.
-        These links open in a new window, allowing the user to remain on the Camper Hacks website also. 
-        - The footer further establishes the sense of community by showing the user examples of the community and past events.
-
-        ![Footer Image](assets/wireframes/footer.png)
-
-    - #### Gallery
-
-        - The gallery gives the user the chance to browse images to see what kind of community events have happened in the past.
-        - The gallery allows the user to build a sense of understanding for what type of people are involved and where in their locality past meet-ups have been held.
-
-        ![Gallery Image](assets/wireframes/gallery.png)
-
-    - #### Sign Up Page
-
-        - The sign up page gives the user the chance to sign up to the monthly newsletter through a form. The user will provide their first and last name, email address, and choose from a choice of three types of camping they prefer. 
-
-        ![Sign Up Image](assets/wireframes/signup.png)
-
-    - #### Thank You Page
-
-        - The thank you page confirms the user has successfully signed up and welcomes them to the community. 
-
-        ![Thank You Image](assets/wireframes/thankyou.png)
-
  -  ### Features Left to Implement
     - #### 'Contact Us' page
         - I think  another feature that could allow for another positive user experience is the addition of another page for "Contact Us". Here the users can submit their own  camper hacks which can then be used to update the site regularly.
 
-- ### Responsive on all device sizes 
+    - ### Responsive on all device sizes 
     - The website is responsive on a number of devices at different screen widths. 
+<hr>
 
+# Technologies
+- ## Languages Used
 
-## Languages Used
+    -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- ## Frameworks, Libraries & Programs Used
 
-## Frameworks, Libraries & Programs Used
-
-1. [Pexels:](https://pexels.com/)
+    1. [Pexels:](https://pexels.com/)
     - I used Pexels throughout my website for all imagery used. Pexels offers Copyright free imagery. All images used were chosen as they fit the overall theme for the website.
-1. [Google Fonts:](https://fonts.google.com/)
+    1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Roboto Slab' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
+    1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes. These were inkeeping with the overall style of the website.
-1. [GitHub:](https://github.com/)
+    1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Balsamiq:](https://balsamiq.com/)
+    1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create my wireframes during the design process.
+<hr>
 
-## Testing
+ # Testing
 
 ### Initial Testing
 
@@ -333,7 +268,9 @@ This website is designed to be responsive and accessible on a range of devices, 
 - I had some issues initially when I ran my code through the validator around h1 headings. I had used these in more than one place in my files. I subsequently changed the h1's to h2 or h3 headings. 
 - I noticed when testing the website with Lighthouse that my own internet connection affected the websites Performance score. When testing in different places,  the score ranged +/- 5 points. I found this interesting and read some articles about Lighthouse which I found helpful. View the  [Lighthouse Article](https://requestmetrics.com/web-performance/the-limitations-of-lighthouse) here.
 
-## Deployment
+<hr>
+
+# Deployment
 
 ### GitHub Pages
 
@@ -381,7 +318,9 @@ $ git clone https://github.com/LonesG/camperhacks
 >Resolving deltas: 100% (136/136), done
 ```
 
-## Credits
+<hr>
+
+# Credits
 
 ### Content
 
