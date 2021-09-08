@@ -342,7 +342,7 @@ input[type=text] {
 
 /*media queries*/
 
-/* for extra large screen size from 1350px wide and down */
+/* for extra large and large screen size from 1350px wide and down */
 @media screen and (max-width: 1350px) {
 
     header {
@@ -404,7 +404,7 @@ input[type=text] {
 
 }
 
-/* for larger screen sizes from 1080px wide and down */
+/* for large and medium screen sizes from 1080px wide and down */
 @media screen and (max-width: 1080px) {
 
     header {
@@ -432,19 +432,24 @@ input[type=text] {
 
 }
 
-/* for medium screen sizes from 650px wide and down */
+/* for small screen sizes from 650px wide and down */
 @media screen and (max-width: 650px) {
-
-    h1 {
-        font-size: 150%;
-    }
 
     header {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         overflow: hidden;
+    }
 
+    .headings {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #003049;
+        font-size: 200%;
+        font-weight: 300;
+        margin: .5em;
     }
 
     #logo {
