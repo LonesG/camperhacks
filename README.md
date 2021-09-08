@@ -12,9 +12,52 @@ This website is designed to be responsive and accessible on a range of devices, 
 ![Responsive Image](assets/wireframes/responsive.png)
 
 
-## User Experience (UX)
+## Contents
+<ul>
+    <li>
+        <a href="#User Experience"><strong>UX</strong></a>               
+    </li>
+    <li>
+        <a href="#Technologies"><strong>Technologies</strong></a>
+    </li>
+    <li>
+        <a href="#Features"><strong>Features</strong></a>
+    </li>
+    <li>
+        <a href="#Testing"><strong>Testing</strong></a>   
+    </li>
+    <li>
+        <a href="#Deployment"><strong>Deployment</strong></a>
+    </li>
+    <li>
+       <a href="#Credits"><strong>Credits</strong></a> 
+    </li>
+    <li>
+        <a href="#Screenshots"><strong>Screenshots</strong></a>
+    </li>
+</ul>
+<hr>
 
--   ### User stories
+
+
+- # User Experience (UX)
+- ## Strategy
+
+- ### Vision
+    Camper Hacks is a specialist website aiming to provide tips, tricks and hacks for camping enthusiasts and to bring these people together in an online and real world community setting. Having just converted a commercial van to a campervan  myself, I felt there was a gap in the market online for people like myself. It's nice to meet like minded people when camping so this website seeks to link the camping community together, particularly around Ireland.
+    I want this website to offer a sense of community to the user. I want it to be engaging and to encourage the user to get involved in realtime by signing up to the community newsletter, attending meet ups and using the tips and tricks provided.
+
+- ### Aims
+    To give camping enthusiasts an outlet for camping tips, tricks and hacks.
+    To give camping enthusiasts the opportunity to make connections with like minded members of the camping community.
+    To constantly update the website with new and fresh ideas, photos of meet ups and relevant content.
+
+- ### Target Audience
+    There are a number of target audiences for this website due to the fact that camping is for everyone. We welcome new and old members from all age ranges and all locations.
+    Camper Hacks meet ups will happen mostly in Ireland, so in that regard,  this website will be mostly targeting Irish campers.
+
+
+- ### User stories
 
     -   #### First Time Visitor Goals
 
@@ -29,8 +72,30 @@ This website is designed to be responsive and accessible on a range of devices, 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to find out the winners of the monthly cooking competition.
         2. As a Frequent User, I want to see newly updated information in each section.
+<br>
 
-- ## Design
+- ## Scope
+
+- ## Structure
+
+    - I have chosen to create a website with multiple pages allowing me to separate the information into logical sections to make it easier for the user to find what they are looking for. The navigation bar at the top of all of the pages allows the user to easily navigate to the page of the website they are most interested in.
+    - On the index.html page,  I chose to have the hero image first. This grabs the users attention instantly with vibrant colours. The "Who We Are" section comes next and I felt this was the proper placing for this information. Logically, a user will want to know what the website is about. Then the page is sub-divided into sections for Clothing, Gear and Food hacks. Logically, this made sense to me as they would be the top three things one would pack when camping. 
+    -On the gallery.html page, I have included images of the previous meet ups and of photos users have sent in. These photos are presented in an organised manner. Personally, I like to see a gallery on websites when I am a first time user. To me, this page was necessary in order to build that sense of community.
+    - On the signup.html page, I used the same colour scheme to give the user the sense of familiarity. To me, the sign up page would logically come at the end of the menu list on  the navbar. The user has viewed all other pages and now wants to join the community.
+
+- ## Skeleton
+
+-  ### Wireframes
+
+    - I made some very basic wireframes using Balsamiq at the beginning of the project. As a total beginner, I found Balsamiq very helpful. I didn't quite know what styling I wanted on my pages but I had a very clear picture about the content. I knew how many pages I wanted my website to have and had a clear image in my head.  Balsamiq allowed me to create a visual of my idea and gave me a goal to work towards.
+
+    ![Wireframe of Home page](assets/wireframes/wireframe1.png)
+
+    ![Wireframe of Gallery](assets/wireframes/wireframe2.png)
+
+- ## Surface
+
+- ### Design
     -   #### Colour Scheme
         -   The main colours used in this project are Prussian Blue (#003049), Gold Drop (#f77f00), Saffron (##f4d023) and Shamrock (#3fe491).
         - The blue color reflects the open sky and fine weather. The golden colors, again represent the sun and warm weather that is much loved by campers. Finally, the aqua color represents water in nature.
@@ -45,13 +110,70 @@ This website is designed to be responsive and accessible on a range of devices, 
    - #### Icons
         - I decided to use the Font Awesome icons. The icons that I chose fit in well with the overall theme of nature and exploring. The icons are styled in accordance with my website, with the same colors and fonts. 
 
-  -  #### Wireframes
+  
 
-        - I made some very basic wireframes using Balsamiq at the beginning of the project. As a total beginner, I found Balsamiq very helpful. I didn't quite know what styling I wanted on my pages but I had a very clear picture about the content. I knew how many pages I wanted my website to have and had a clear image in my head.  Balsamiq allowed me to create a visual of my idea and gave me a goal to work towards.
+# Features
 
-        ![Wireframe of Home page](assets/wireframes/wireframe1.png)
+-  ### Existing Features
+    - #### Navigation Bar
+        -The navigation bar is featured on all pages. The fully responsive navigation  bar links to Home, Camper Hacks, Gallery and Sign Up pages. This navigation bar is repeated on all pages to allow the user to navigate the site easily.
+        -Having the navigation bar the same on each page allows the user to use the website fluidly without having to make use of the 'back' bar when navigating between pages.
 
-        ![Wireframe of Gallery](assets/wireframes/wireframe2.png)
+        ![Navigation Bar Image](assets/wireframes/navbar.png)
+
+    - #### The Landing Page
+        - The landing page contains a hero image that entices the user to use the page. The contrast between the image with mountains and snowy peaks and the background colour is intended to grab the users attention.
+
+        ![Hero Image](assets/wireframes/heroimage.png)
+
+    - #### The 'Back to Top' link
+        - The back to top link promotes positive user experiences on the website as it allows the user to scroll the website without having to manually go back up to the top to navigate their way around the site. 
+        - Positive user experiences are key in keeping users engaged with the site so I wanted to add this feature.
+        - I also took this opportunity to use the lighter yellow colour for the background of this feauture and the navy colour used elsewhere throughout the website for the text, as this colour combination  is easily spotted as its contrasts with the other colours. It is also helpful for users who may have dyslexia and visual impairment issues. This colour scheme is used for each link throughout the page to allow for familiarity, allowing the user to navigate back to the top with ease.
+
+        ![Back to top Image](assets/wireframes/backtotop.png)
+
+    - #### The Who We Are section
+        - The who we are section introduces the user to the Camper Hacks community, it's founders and gives a brief introduction. It lets the user know what they will find on the page and how to acess information.
+
+        ![Who We Are Image](assets/wireframes/whoweare.png)
+
+    - #### The Camper Hacks Section
+        - This section is sub divided into three specific headings; Clothing, Gear and Food. The user will find a wide variety of tips and tricks, presented through the medium of text, video, imagery and links to external websites. 
+
+        ![Camper Hacks- Clothing Image](assets/wireframes/clothing.png)
+        ![Camper Hacks - Gear Image](assets/wireframes/gear.png)
+        ![Camper Hacks - Food Image](assets/wireframes/food.png)
+
+    - #### The Footer
+        - This section provides the user with links to the Camper Hacks social media accounts, Facebook, Instagram, Twitter and Youtube.
+        These links open in a new window, allowing the user to remain on the Camper Hacks website also. 
+        - The footer further establishes the sense of community by showing the user examples of the community and past events.
+
+        ![Footer Image](assets/wireframes/footer.png)
+
+    - #### Gallery
+
+        - The gallery gives the user the chance to browse images to see what kind of community events have happened in the past.
+        - The gallery allows the user to build a sense of understanding for what type of people are involved and where in their locality past meet-ups have been held.
+
+        ![Gallery Image](assets/wireframes/gallery.png)
+
+    - #### Sign Up Page
+
+        - The sign up page gives the user the chance to sign up to the monthly newsletter through a form. The user will provide their first and last name, email address, and choose from a choice of three types of camping they prefer. 
+
+        ![Sign Up Image](assets/wireframes/signup.png)
+
+    - #### Thank You Page
+
+        - The thank you page confirms the user has successfully signed up and welcomes them to the community. 
+
+        ![Thank You Image](assets/wireframes/thankyou.png)
+
+ 
+
+
 
 ## Features
 
