@@ -72,6 +72,10 @@ This website is designed to be responsive and accessible on a range of devices, 
 <br>
 
 - ## Scope
+    - When creating this website I took an agile approach. That is, creating bite-size increments of development at any one time. I worked at the different sections in smaller chunks. I solved smaller parts of the problem by choosing small elements to work on daily. These smaller sprints of work allowed me to ensure the features I wanted to build were done in a timely fashion  and also that I didn't succumb to 'scope creep'.
+    - I have met the functional requirements of the website by allowing the user the opportunity to sign up to the newsletter and to join the online community.
+    - I have met the content requirement of the website by providing the users with the media they need in order to gain a better understanding of the community that Camper Hacks is offering to them as a new member.
+    - I believe this website is useful for the user.
 
 - ## Structure
 
