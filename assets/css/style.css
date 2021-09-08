@@ -314,6 +314,10 @@ input[type=text] {
     background-color: #f77f00;
   }
 
+  .join-button:hover {
+    border: 10px solid  #f4d023;
+    cursor: pointer;
+}
 
 /* thank you page */
 
