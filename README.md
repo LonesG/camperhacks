@@ -81,8 +81,9 @@ This website is designed to be responsive and accessible on a range of devices, 
 
     - I have chosen to create a website with multiple pages allowing me to separate the information into logical sections to make it easier for the user to find what they are looking for. The navigation bar at the top of all of the pages allows the user to easily navigate to the page of the website they are most interested in.
     - On the index.html page,  I chose to have the hero image first. This grabs the users attention instantly with vibrant colours. The "Who We Are" section comes next and I felt this was the proper placing for this information. Logically, a user will want to know what the website is about. Then the page is sub-divided into sections for Clothing, Gear and Food hacks. Logically, this made sense to me as they would be the top three things one would pack when camping. 
-    -On the gallery.html page, I have included images of the previous meet ups and of photos users have sent in. These photos are presented in an organised manner. Personally, I like to see a gallery on websites when I am a first time user. To me, this page was necessary in order to build that sense of community.
+    - On the gallery.html page, I have included images of the previous meet ups and of photos users have sent in. These photos are presented in an organised manner. Personally, I like to see a gallery on websites when I am a first time user. To me, this page was necessary in order to build that sense of community.
     - On the signup.html page, I used the same colour scheme to give the user the sense of familiarity. To me, the sign up page would logically come at the end of the menu list on  the navbar. The user has viewed all other pages and now wants to join the community.
+    - The thankyou.html page displays a welcome message to the user, welcoming them to the community and thanking them for signing up. This page also displays the familiar navigation bar so that the user can quickly go back to any section of the website.
 
 - ## Skeleton
 
@@ -178,8 +179,8 @@ This website is designed to be responsive and accessible on a range of devices, 
     - #### 'Contact Us' page
         - I think  another feature that could allow for another positive user experience is the addition of another page for "Contact Us". Here the users can submit their own  camper hacks which can then be used to update the site regularly.
 
-    - ### Responsive on all device sizes 
-    - The website is responsive on a number of devices at different screen widths. 
+    - #### Responsive on all device sizes 
+        - The website is responsive on a number of devices at different screen widths. 
 <hr>
 
 # Technologies
@@ -341,7 +342,7 @@ $ git clone https://github.com/LonesG/camperhacks
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor Gerry McBride for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
 
